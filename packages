@@ -1,0 +1,21 @@
+(* In order to start cleaning your data, you will need to by install the required packages. If you have already
+installed and loaded tidyverse, skimr, and janitor in this session, feel free to skip the code chunks in this
+step. *)
+install.packages("tidyverse")
+
+(* ## Installing package into '/cloud/lib/x86_64-pc-linux-gnu-library/4.3'
+## (as 'lib' is unspecified) *)
+
+install.packages("skimr")
+
+(* ## Installing package into '/cloud/lib/x86_64-pc-linux-gnu-library/4.3'
+## (as 'lib' is unspecified) *)
+
+install.packages("janitor")
+
+(* ## Installing package into '/cloud/lib/x86_64-pc-linux-gnu-library/4.3'
+## (as 'lib' is unspecified)
+Once a package is installed, you can load it by running the library() function with the package name inside
+the parentheses: *)
+
+library(tidyverse)
